@@ -1,7 +1,7 @@
 {
-  "name": "tiny-css-reset",
+  "name": "tinyresetcss",
   "version": "1.0.0",
-  "description": "A Tiny CSS Reset",
+  "description": "A tiny, minimal CSS reset",
   "main": "./dist/reset.min.css",
   "scripts": {
     "build": "cleancss src/reset.css > dist/reset.min.css && cp src/reset.css dist/reset.css"
@@ -11,10 +11,11 @@
     "url": "git+https://github.com/vincentvanbreugel/tiny-css-reset.git"
   },
   "keywords": [
-    "css reset"
+    "css reset",
+    "tiny reset"
   ],
   "author": "Vincent van Breugel",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vincentvanbreugel/tiny-css-reset/issues"
   },

@@ -15,10 +15,11 @@
 }
 
 /* 
-  Set line-height
+  Set body styles
 */
 body {
   line-height: 1.5;
+  min-height: 100vh;
 }
 
 /* 
@@ -55,4 +56,12 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+/* 
+  Inherit fonts for form elements
+*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
