@@ -6,3 +6,53 @@
 *::after {
   box-sizing: border-box;
 }
+
+/* 
+  Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/* 
+  Set line-height
+*/
+body {
+  line-height: 1.5;
+}
+
+/* 
+  Prevent text overflow
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* 
+  Set defaults for media
+*/
+img,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 
+  Inherit fonts for form elements
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
