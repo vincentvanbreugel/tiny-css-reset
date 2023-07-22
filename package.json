@@ -1,5 +1,5 @@
 {
-  "name": "tinyresetcss",
+  "name": "@vinvanbreugel/tiny-reset-css",
   "version": "1.0.0",
   "description": "A tiny, minimal CSS reset",
   "main": "./dist/reset.min.css",
